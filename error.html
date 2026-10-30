@@ -1,0 +1,1 @@
+{% extends "base.html" %}{% block title %}Error {{ code }} — {{ store_name }}{% endblock %}{% block content %}<main class="success-page"><span class="eyebrow">ERROR {{ code }}</span><h1>Oops!</h1><p>{{ message }}</p><a class="btn primary" href="{{ url_for('index') }}">Kembali ke beranda</a></main>{% endblock %}
